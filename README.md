@@ -14,7 +14,17 @@ Run the command below to install maven dependencies
  ```bash
  mvn install -DskipTests.
   ```
-    
+## Up and Running
+
+ ```bash
+ cd /target.
+  ```
+  
+  ```bash
+ java -jar portal-apis-0.0.1-SNAPSHOT.jar
+  ```
+ 
+ 
 ## Testing
 To test, you can insert some dummy data in the tables created in the two databases, then test using the endpoints below.
 
